@@ -1,0 +1,27 @@
+Vile: ASCII Art Generator
+
+
+ Vile is a simple ASCII-art generator that uses VT100 commands to draw
+to a terminal. On Linux, the standard terminals are all fast enough to
+do real-time animations but the default OSX terminal is a bit too slow.
+For all of my Linux command-line tools though, I use this library to
+put together 1-second long splash screens for them.
+
+ The software (both vile.py and the test cases) are provided as public
+domain works but the images are not.
+
+ Please keep in mind that the tests are the absolute worst shapes to be 
+trying to do this on. It'll work best on simple, very high-contrast shapes 
+where these are thin and detailed.
+
+ For a quick demonstration on how to display a single image, see
+vile-test-bsf-static.py
+
+ To go to the next level, see a demo on how to animate a few images
+together here: vile-test-bsf.py
+
+
+
+ Regards,
+ Ryan Balsdon
+ ryanbalsdon@gmail.com
